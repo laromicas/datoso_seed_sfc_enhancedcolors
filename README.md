@@ -14,9 +14,9 @@ Super Famicom - Enhanced Colors.
 Datoso requires python 3.10+.
 
 Use pip (recommended to use a virtual environment):
+If you only need this plugin you can install it directly
 
 ``` bash
-# Install datoso base (doesn't do much without real plugins)
 pip install datoso_seed_sfc_enhancedcolors
 
 ```
