@@ -1,3 +1,4 @@
+"""Rules for the Super Famicom - Enhanced Colors seed."""
 from datoso_seed_sfc_enhancedcolors.dats import SFCEnhancedColorsDat
 
 rules = [
@@ -22,5 +23,6 @@ rules = [
 ]
 
 
-def get_rules():
+def get_rules() -> list:
+    """Get the rules."""
     return rules
