@@ -1,4 +1,5 @@
 """Actions for the sfc enhanced colors seed."""
+from datoso.configuration import logger
 from datoso_seed_sfc_enhancedcolors.dats import SFCEnhancedColorsDat
 
 actions = {
@@ -23,4 +24,5 @@ actions = {
 
 def get_actions() -> dict:
     """Get the actions dictionary."""
+    logger.error('Deprecated, use datoso_seed_enhanced instead')
     return actions
